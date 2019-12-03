@@ -1,0 +1,16 @@
+{
+    "name": "FTP",
+    "alias": "ftp",
+    "description": "FTP Accounts Management",
+    "keywords": ["ftp"],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "GameapModules\\Ftp\\Providers\\FtpServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "icon": "<i class=\"fas fa-folder-open fa-5x m-1\"></i>",
+    "main-route": "admin/ftp"
+}
